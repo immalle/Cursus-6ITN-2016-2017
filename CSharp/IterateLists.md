@@ -38,7 +38,7 @@ int sum = numbers.Sum();
 Console.WriteLine("Sum = " + sum);
 ```
 
-Hiervoor is de `System.Linq`-namespace noodzakelijk. Zie ook [LINQIntro.md].
+Hiervoor is de `System.Linq`-namespace noodzakelijk. Zie ook [LINQ Introductie](LINQIntro.md).
 
 
 ## Voorbeeld
