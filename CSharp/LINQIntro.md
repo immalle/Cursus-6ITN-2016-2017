@@ -2,7 +2,7 @@
 
 - LINQ = Language Integrated Query
 - Vanaf C# 3.0 
-- Geïmplementeerd dankzij *Extension methods* (Zie [Extension methods](CSharp/ExtensionMethods.md))
+- Geïmplementeerd dankzij *Extension methods* (Zie [Extension methods](ExtensionMethods.md))
 
 # 2 soorten syntax
 
