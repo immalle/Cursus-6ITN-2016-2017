@@ -16,3 +16,5 @@
 - [Extension Methods](CSharp/ExtensionMethods.md)
 - [Itereren over Lists](CSharp/IterateLists.md)
 - [Attributen](CSharp/Attributen.md)
+- [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
+
