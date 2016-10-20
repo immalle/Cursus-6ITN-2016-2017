@@ -35,7 +35,7 @@ namespace ExtensionMethods
             return str.Split(new char[] { ' ', '.', '?' }, 
                              StringSplitOptions.RemoveEmptyEntries).Length;
         }
-    }   
+    }
 }
 ```
 
@@ -52,3 +52,4 @@ Opmerkingen:
 
 - https://msdn.microsoft.com/en-us/library/bb383977.aspx
 - https://www.dotnetperls.com/extension
+

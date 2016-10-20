@@ -12,7 +12,7 @@
 - [Format strings](CSharp/FormatStrings.md)
 - [Methodes aanroepen](CSharp/MethodesAanroepen.md)
 - [Methodes : overloads](CSharp/MethodesOverloads.md)
-- [LINQ introductie](CSharp/LINQIntro.md)
+- [LINQ introductie](CSharp/LINQIntro.md) :construction:""
 - [Extension Methods](CSharp/ExtensionMethods.md)
 - [Itereren over Lists](CSharp/IterateLists.md)
 - [Attributen](CSharp/Attributen.md)

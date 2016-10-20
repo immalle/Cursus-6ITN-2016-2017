@@ -13,8 +13,8 @@ Stel dat we de **som** van deze getallen willen berekenen.
 ```
 int sum = 0;
 for(var n=0; n<numbers.Count; n++) {
-    Console.WriteLine(n);
-    sum += n;
+    Console.WriteLine(numbers[n]);
+    sum += numbers[n];
 }
 Console.WriteLine("Sum = " + sum);
 ```

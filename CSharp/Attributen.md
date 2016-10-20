@@ -13,4 +13,3 @@ maar er zijn nog geavanceerdere mogelijkheden zoals
 `[ExpectedException(typeof(ArgumentException))]`, zie b.v.
 https://msdn.microsoft.com/en-us/library/hh694602.aspx
 
-
