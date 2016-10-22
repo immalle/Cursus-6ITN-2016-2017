@@ -41,7 +41,7 @@ Dictionary<Persoon, string> websiteURLs = new Dictionary<string, string>();
 
 :construction:
 
-# Voorbeeld
+# Voorbeelden
 
-https://dotnetfiddle.net/5Ktqsg
-
+- https://dotnetfiddle.net/TEWeEX : woorden tellen 1 (met meerdere split-chars)
+- https://dotnetfiddle.net/5Ktqsg : woorden tellen 2 (in aparte method)
