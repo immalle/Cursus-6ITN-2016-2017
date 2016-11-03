@@ -18,6 +18,7 @@
 - [Attributen](CSharp/Attributen.md)
 - [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
 - [Overerving : overzicht](CSharp/Overerving.md)
-
+- [Sealed classes zoals String](CSharp/SealedString.md)
+- [Classes vergeleken met Structs](CSharp/ClassVsStruct.md)
 
 
