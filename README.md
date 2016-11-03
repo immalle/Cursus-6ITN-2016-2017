@@ -18,3 +18,5 @@
 - [Attributen](CSharp/Attributen.md)
 - [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
 
+zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
+
