@@ -67,9 +67,10 @@ Die bevatten vaak **de laatste updates** maar zijn **potentieel onbetrouwbaar**.
 B.v. `ppa:webupd8team/brackets` is een PPA (personal package archive) voor [Brackets](http://brackets.io/).
 
 Op https://launchpad.net/ubuntu/+ppas kan je zoeken naar PPA's.
+Je kan ook zelf PPA's maken.
 
-b.v. https://launchpad.net/~webupd8team/+archive/ubuntu/brackets heeft als maintainer
-https://launchpad.net/~nilarimogard.
+> b.v. https://launchpad.net/~webupd8team/+archive/ubuntu/brackets heeft als maintainer
+https://launchpad.net/~webupd8team
 
 
 # Ubuntu vs. andere distributies
