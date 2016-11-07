@@ -1,5 +1,3 @@
-# Curl
-
 Curl is een command line tool om verbinding te maken met allerlei services. 
 Het wordt vaak gebruikt om webservices te testen of om een bestand te downloaden. 
 
@@ -24,7 +22,7 @@ zeg op welke TCP-poortnummer deze services standaard draaien.
 - cookies
 - ...
 
-## gebruik
+# gebruik
 
 Download de hele pagina (en toon op `stdout`):
 
@@ -41,7 +39,7 @@ Toon enkel de HTTP-header:
 	curl -k --head "https://www.google.be"
 
 
-## verbose
+# verbose
 
 Toon meer info over wat precies wordt verzonden:
 
@@ -52,13 +50,15 @@ Eventueel kan zelf nog meer getoond worden met `--trace` en `--trace-ascii`.
 Dit kan alleen naar een aparte file gelogd worden.
 
 
-## POST-method
+# POST-method
 
-http://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request
 
-http://stackoverflow.com/questions/14551194/how-are-parameters-sent-in-an-http-post-request
 
-### Content-type
+- http://superuser.com/questions/149329/what-is-the-curl-command-line-syntax-to-do-a-post-request
+  - https://curl.haxx.se/docs/httpscripting.html
+- http://stackoverflow.com/questions/14551194/how-are-parameters-sent-in-an-http-post-request
+
+## Content-type
 
 standaard: `application/x-www-form-urlencoded`
 
@@ -66,3 +66,61 @@ http://stackoverflow.com/questions/9870523/differences-in-application-json-and-a
 
 liever b.v.: `request.ContentType = "application/json; charset=utf-8"`
 
+## Cookies
+
+```
+curl --cookie "name=Daniel" http://www.example.com
+```
+
+## GET Form data
+
+```
+curl "http://www.hotmail.com/when/junk.cgi?birthyear=1905&press=OK"
+```
+
+```
+<form method="GET" action="junk.cgi">
+ <input type=text name="birthyear">
+ <input type=submit name=press value="OK">
+</form>
+```
+
+## POST Form data (x-www-form-urlencoded)
+
+```
+curl --data "birthyear=1905&press=%20OK%20"  http://www.example.com/when.cgi
+```
+
+```
+<form method="POST" action="junk.cgi">
+ <input type=text name="birthyear">
+ <input type=submit name=press value=" OK ">
+</form>
+```
+
+## Basic HTTP authentication
+
+```
+curl http://user:password@example.org/
+curl -u user:password http://example.org/
+curl --user name:password http://www.example.com
+```
+
+## HTTP File upload (PUT)
+
+```
+curl --upload-file uploadfile http://www.example.com/receive.cgi
+```
+
+## Form file upload
+
+```
+curl --form upload=@localfilename --form press=OK [URL]
+```
+
+```
+<form method="POST" enctype='multipart/form-data' action="upload.cgi">
+ <input type=file name=upload>
+ <input type=submit name=press value="OK">
+</form>
+```
