@@ -7,6 +7,10 @@
 
 - [Cell Formatting / Celweergave](Excel/CellFormatting.md)
 
+# Word
+
+- [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
+
 # CSharp
 
 - [Format strings](CSharp/FormatStrings.md)
