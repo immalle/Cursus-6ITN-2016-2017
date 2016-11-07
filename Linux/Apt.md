@@ -46,18 +46,25 @@ dpkg --install brackets.deb
 
 > `.deb`-packages worden gebruikt door Debian en afgeleiden zoals (X)Ubuntu.
 
+> Het nadeel kan zijn dat bepaalde **dependencies** niet automatisch mee worden geinstalleerd!
+
 # add-apt-repository
 
-`add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*.
+`add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*, b.v.
 
-> Na het toevoegen eerst `sudo apt-get update` om de informatie over de nieuwe packages effectief te downloaden.
+```
+sudo add-apt-repostiroy ppa:webupd8team/brackets
+```
+
+> Na het toevoegen moet je met `sudo apt-get update` de informatie over de nieuwe packages effectief downloaden.
+> Hierna zou je het pakket moeten vinden met `apt-cache search`.
 
 ## PPA's
 
-Naast de officiele (X)Ubuntu-Apt-repositories kan je ook PPA's toevoegen.
+Naast de officiele (X)Ubuntu-Apt-repositories kan je dus PPA's toevoegen.
 Die bevatten vaak **de laatste updates** maar zijn **potentieel onbetrouwbaar**.
 
-B.v. `ppa:webupd8team/brackets` is een ppa (personal package archive).
+B.v. `ppa:webupd8team/brackets` is een PPA (personal package archive) voor [Brackets](http://brackets.io/).
 
 Op https://launchpad.net/ubuntu/+ppas kan je zoeken naar PPA's.
 
