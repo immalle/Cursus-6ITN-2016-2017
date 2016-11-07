@@ -20,6 +20,13 @@
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
+
+# Linux
+
+- [Linux directory structuur](Linux/Directories.md)
+- [Apt repositories en `.deb`-files](Linux/Apt.md)
+
+
 # HTTP
 
 - [Curl : CLI http client](Http/Curl.md)
