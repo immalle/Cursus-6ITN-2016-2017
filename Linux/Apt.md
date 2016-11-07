@@ -2,7 +2,7 @@
 
 ## install
 
-`apt-get` is een package manager die `.deb``-files download en installeert tesamen met eventuele dependencies (= andere `.deb`'s).
+`apt-get` is een package manager die `.deb`-files download en installeert tesamen met eventuele dependencies (= andere `.deb`'s).
 
 B.v. het downloaden en installeren van het `tree`-commando:
 
@@ -48,7 +48,7 @@ dpkg --install brackets.deb
 
 # add-apt-repository
 
-`add-apt-repository`` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*.
+`add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*.
 
 > Na het toevoegen eerst `sudo apt-get update` om de informatie over de nieuwe packages effectief te downloaden.
 
