@@ -50,6 +50,8 @@ dpkg --install brackets.deb
 
 # add-apt-repository
 
+> Om `add-apt-repository` te installeren: `sudo apt-get install python-software-properties`
+
 `add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*, b.v.
 
 ```
