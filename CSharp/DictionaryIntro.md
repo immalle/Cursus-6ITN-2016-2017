@@ -14,13 +14,13 @@ kan zijn in bepaalde scenario's.
 
 Een mapping tussen woorden en hoe vaak ze voorkomen:
 
-```
+```C#
 Dictionary<string, int> woordTeller = new Dictionary<string, int>();
 ```
 
 Een mapping tussen een `Persoon` en een URL van zijn/haar website:
 
-```
+```C#
 class Persoon {
     string achternaam;
     string voornaam;
