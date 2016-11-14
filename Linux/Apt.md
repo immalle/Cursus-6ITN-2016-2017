@@ -2,7 +2,8 @@
 
 ## install
 
-`apt-get` is een package manager die `.deb`-files download en installeert tesamen met eventuele dependencies (= andere `.deb`'s).
+`apt-get` is een package manager die `.deb`-files download en installeert
+tesamen met eventuele dependencies (= andere `.deb`'s).
 
 B.v. het downloaden en installeren van het `tree`-commando:
 
@@ -46,19 +47,22 @@ dpkg --install brackets.deb
 
 > `.deb`-packages worden gebruikt door Debian en afgeleiden zoals (X)Ubuntu.
 
-> Het nadeel kan zijn dat bepaalde **dependencies** niet automatisch mee worden geinstalleerd!
+> Het nadeel kan zijn dat bepaalde **dependencies** niet automatisch mee worden
+> geinstalleerd!
 
 # add-apt-repository
 
 > Om `add-apt-repository` te installeren: `sudo apt-get install python-software-properties`
 
-`add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan de lijst van *Apt repositories*, b.v.
+`add-apt-repository` is een manier om nieuwe Internet-adressen toe te voegen aan
+de lijst van *Apt repositories*, b.v.
 
 ```
 sudo add-apt-repostiroy ppa:webupd8team/brackets
 ```
 
-> Na het toevoegen moet je met `sudo apt-get update` de informatie over de nieuwe packages effectief downloaden.
+> Na het toevoegen moet je met `sudo apt-get update` de informatie over de
+> nieuwe packages effectief downloaden.
 > Hierna zou je het pakket moeten vinden met `apt-cache search`.
 
 ## PPA's
@@ -66,7 +70,8 @@ sudo add-apt-repostiroy ppa:webupd8team/brackets
 Naast de officiele (X)Ubuntu-Apt-repositories kan je dus PPA's toevoegen.
 Die bevatten vaak **de laatste updates** maar zijn **potentieel onbetrouwbaar**.
 
-B.v. `ppa:webupd8team/brackets` is een PPA (personal package archive) voor [Brackets](http://brackets.io/).
+B.v. `ppa:webupd8team/brackets` is een PPA (personal package archive)
+voor [Brackets](http://brackets.io/).
 
 Op https://launchpad.net/ubuntu/+ppas kan je zoeken naar PPA's.
 Je kan ook zelf PPA's maken.
@@ -79,7 +84,8 @@ https://launchpad.net/~webupd8team
 
 ## RPM
 
-De tegenhanger `.deb`-files is in Fedora Core (of andere Red Hat afgeleide distributies) `.rpm` (RedHat Package Manager)).
+De tegenhanger `.deb`-files is in Fedora Core (of andere Red Hat afgeleide
+distributies) `.rpm` (RedHat Package Manager)).
 
 De package manager heet er `yum`, waarmee je b.v. commando's kan geven als:
 
@@ -90,11 +96,16 @@ yum install tree
 
 ## TGZ
 
-Soms worden in een `.tar.gz` (of gelijkaardig) bestand *binaries* gedistribueerd. Vaak wordt dan ook nog aangeduid voor welke processor en OS de binaries gebouwd zijn (`x84, `linux`, `darwin`, ...)
+Soms worden in een `.tar.gz` (of gelijkaardig) bestand *binaries*
+gedistribueerd. Vaak wordt dan ook nog aangeduid voor welke processor en OS de
+binaries gebouwd zijn (`x84, `linux`, `darwin`, ...)
 
-> Deze binaries kunnen dan manueel uitgepakt en ergens geplaatst worden, b.v. in `/usr/local`. Zie ook [Linux directory-structuur](Linux/Directories.md).
+> Deze binaries kunnen dan manueel uitgepakt en ergens geplaatst worden, b.v. in
+> `/usr/local`. Zie ook [Linux directory-structuur](Linux/Directories.md).
 
 Een `.src.tar.gz` bevat de source-code.
+
+b.v. De Go-compiler, -tools en libraries : https://golang.org/dl/ 
 
 ## e.v.a.
 
