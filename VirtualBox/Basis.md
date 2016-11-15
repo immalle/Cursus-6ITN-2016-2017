@@ -4,4 +4,4 @@
 - rechtse `ctrl`+`f` fullscreen
 - gedeeld klembord : bidirectioneel
 - gedeelde mappen : om bestanden te delen met de host (Windows)
-
+  - user `imma` toevoegen aan groep `vboxsf` om `/media/sfxyz` te kunnen benaderen (gebruik b.v. `gpasswd`)
