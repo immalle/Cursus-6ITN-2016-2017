@@ -35,6 +35,12 @@ apt-cache search tree
 
 > Merk op dat je om te zoeken in de local package cache je geen `sudo`-rechten nodig hebt.
 
+Om info te tonen over het package `tree`:
+
+```
+apt-cache show tree
+```
+
 # dpkg
 
 Achter de schermen wordt gebruik gemaakt van `dpkg`. Je kan die zelf ook gebruiken, b.v.

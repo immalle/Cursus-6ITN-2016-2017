@@ -24,6 +24,9 @@
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
+# VirtualBox
+
+- [VirtualBox basisconfiguratie](VirtualBox/Basis.md)
 
 # Linux
 
@@ -31,7 +34,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - [Linux directory structuur](Linux/Directories.md)
 - [Apt repositories en `.deb`-files](Linux/Apt.md)
 - [PATH omgevingsvariabele](Linux/Path.md)
-
+- [XFCE Window Manager tips](Linux/Xfce.md)
 
 # HTTP
 
