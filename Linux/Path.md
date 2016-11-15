@@ -18,4 +18,14 @@ Het is een opsomming van directories, telkens gescheiden door een `:`.
 
 > Probeer b.v. ook `which vi`, `which ls`, `which mkdir`, ...
 
+## Hoe bestendigen?
+
+Voeg dit toe in `.zshrc` (of een ander user-specifiek opstart-script zoals `profile`, `.bashrc`, ... afhankelijk van welke shell)
+
+```
+export PATH=/home/imma/bin/:$PATH
+```
+
+De map `/home/imma/bin` staat nu altijd in het PATH.
+De executables kunnen overal uitgevoerd worden.
 
