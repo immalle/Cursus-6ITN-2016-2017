@@ -11,6 +11,10 @@
 
 - [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
 
+# Git
+
+- [Git commands die je zeker moet kennen](Git/Cmds.md)
+
 # CSharp
 
 - [Format strings](CSharp/FormatStrings.md)
