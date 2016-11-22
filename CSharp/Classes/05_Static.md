@@ -3,10 +3,17 @@
 `static` is een keyword dat voor de definities van **methods** en **variabelen** kan
 gezet worden.
 
-Wat we al weten over static **methods**:
+Een `static` method kunnen we gebruiken zonder we eerst een object moeten
+maken. Bekende voorbeelden zijn :
 
-Een `static` method (zoals `MessageBox.Show(...)` of `Math.Round(...)` kunnen we
-gebruiken zonder we eerst een object moeten maken.
+- `Math.Round(...)` 
+- `String.Join(...)`
+- `Console.WriteLine(...)`
+- `MessageBox.Show(...)` 
+
+> Merk op dat b.v. `String`-class zowel `static` als niet-`static` methods heeft.
+> `Math` en `Console` zijn dan weer classes met **enkel** `static`-methods.
+
 
 ## Een static method
 
@@ -95,7 +102,7 @@ verkeerde manier worden aangeroepen.
 
 ## In de praktijk
 
-In de praktijk gebruiken we `static`` voor 2 belangrijke scenario's:
+In de praktijk gebruiken we `static` voor een aantal belangrijke scenario's.
 
 ### Groeperen van methods
 
@@ -119,7 +126,9 @@ Als we de method of variable willen gebruiken in een `static` method, moet de
 gebruikte method of variable ook `static` zijn. Het is dan wel de vraag of het
 noodzakelijk is dat de eerste method/variabele ook `static` is.
 
-## Voorbeelden uit .NET
+Een typisch voorbeeld is de `Main`-method van een Console-applicatie.
+
+## Voorbeelden uit .NET en motivatie
 
 In volgende voorbeelden zie je dat `static`, hoewel het meestal de uitzondering
 is, soms toch zeer nuttig kan zijn.
