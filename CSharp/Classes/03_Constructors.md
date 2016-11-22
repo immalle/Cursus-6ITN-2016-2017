@@ -1,7 +1,12 @@
 # Constructors
 
-Zoals al gezien in [Hoofdstuk 6: Objects](CSharp/06_Objects) gebruiken we
-constructors om objecten te maken.
+## Overzicht
+
+- Constructors zijn de methods die aangeroepn worden als we met `new` een
+  nieuwe instantie maken van een object
+- Er kunnen verschillende **overloads** zijn, d.w.z. verschillende constructors
+  met verschillende parameters
+- Als we geen constructor definiëren is er enkel de **default** constructor
 
 
 
