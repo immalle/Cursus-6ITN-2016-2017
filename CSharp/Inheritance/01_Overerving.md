@@ -4,7 +4,7 @@ Om code zo veel mogelijk te herbruiken, is het soms interessant om classes
 van elkaar te laten overerven.
 
 > Dit is niet de enige reden om overerving te gebruiken. Een andere reden
-is [Polymorfie](Polymorfie.md).
+is [Polymorfie](CSharp/24_Polymorfie).
 
 In wat volgt, willen we `Varken`, `Koe` en `Paard` een method `MaakGeluid()`
 geven.

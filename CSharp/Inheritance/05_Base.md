@@ -1,6 +1,6 @@
 # Base
 
-Net zoals we `this` hebben (Zie [This](CSharp/10_Classes/04_This.md)), 
+Net zoals we `this` hebben (Zie [This](../Classes/04_This.md)), 
 is er ook `base`.
 
 Met `base` kunnen we onderscheid maken tussen variabelen of methods

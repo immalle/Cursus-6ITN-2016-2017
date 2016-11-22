@@ -24,17 +24,26 @@
 - [Extension Methods](CSharp/ExtensionMethods.md)
 - [Itereren over Lists](CSharp/IterateLists.md)
 - [Attributen](CSharp/Attributen.md)
-- [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
+- [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
 
-Overerving
+## Classes
 
-- [Inleiding](CSharp/Overerving.md)
-- [Virtual](CSharp/Virtual.md)
-- [Abstract](CSharp/Abstract.md)
-- [Overriden](CSharp/Overriden.md)
-- [Base](CSharp/Base.md)
-- [Constructors](CSharp/Constructors.md)
-- [Polymorfie](CSharp/Polymorfie.md)
+- [Access specifiers : `public`, `protected`, `private`](CSharp/Classes/01_ClassesAccessSpecifiers.md) :pushpin:
+- [Properties](CSharp/Classes/02_Properties.md) :pushpin:
+- [(Default) constructors](CSharp/Classes/03_Constructors.md) :pushpin:
+- [Oef `Voertuig`](CSharp/Classes/03_OefVoertuig.md) :pushpin:
+- [`this`](CSharp/Classes/04_This.md) :pushpin:
+- [`static` methods en variabelen](CSharp/Classes/05_Static.md) :pushpin:
+
+## Overerving
+
+- [Inleiding](CSharp/Inheritance/01_Overerving.md) :rocket:
+- [Virtual en override](CSharp/Inheritance/02_VirtualOverride.md) :rocket:
+- [Abstract](CSharp/Inheritance/03_Abstract.md) :rocket:
+- [Overriden van `ToString`](CSharp/Inheritance/04_OverridenVanToString.md) :rocket:
+- [Base](CSharp/Inheritance/05_Base.md) :rocket:
+- [Constructors en overerving](CSharp/Inheritance/06_Constructors.md) :rocket:
+- [Polymorfie](CSharp/Inheritance/Polymorfie.md) :rocket:
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
