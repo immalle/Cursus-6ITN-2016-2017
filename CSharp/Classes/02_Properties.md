@@ -1,5 +1,12 @@
 # Properties
 
+## Overzicht
+
+- Properties vervangen `get`- en `set`-methods (zoals bij Java)
+- Properties kunnen **Read-Only** zijn : er is dan enkel een `get`-property
+- Automatic properties (sinds C# 3.0) verminderen in veel gevallen het aantal 
+  regels code
+
 ## Intro
 
 **Properties** zijn zeer gelijkaardig aan **methods** in die zin dat ze
