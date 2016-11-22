@@ -97,22 +97,32 @@ verkeerde manier worden aangeroepen.
 
 In de praktijk gebruiken we `static`` voor 2 belangrijke scenario's:
 
-- We willen een **method** onderbrengen in een class omdat methods groeperen altijd een goed idee is. We willen ze echter gemakkelijk en overal kunnen gebruiken.
+### Groeperen van methods
 
-Een voorbeeld is de `Console2`-class : https://gitlab.com/hansvb-immalle/cursus-5ib/commit/b1210ff3a1a80d7020aebd7e859b501a94d0a245#a25312a09434484ea07d31e3bdb71c7d703c3556_0_1
+We willen een **method** onderbrengen in een class omdat methods groeperen
+altijd een goed idee is. We willen ze echter gemakkelijk en overal kunnen
+gebruiken.
 
-- We willen een variable om 1 of andere reden maar **1 keer** definiëren. B.v. voor een `Random`-object is dat een zeer goed idee. Immers, elke keer we een nieuw Random-object maken, zal als *seed* de huidige tijd gebruikt worden, met als gevolg dat kort op elkaar gemaakte Random-objecten allen dezelfde Random-nummers zullen genereren.
+Een voorbeeld is de `Math`-class met methods zoals `Math.Floor`, `Math.Round`, ...
 
-Daarom is het een goed idee om per applicatie te zorgen dat er maar **1 instantie van Random** gebruikt wordt, zie b.v. : https://gitlab.com/ib-immalle-5ib/DobbelSpel/commit/9c4020064ec8fcdd855e14dc282df3db58df2d71#603a38452def1ec0c24180219be637ec2bb57e54_12_11
+### Een variabele maar 1 keer instantiëren
 
+We willen een variable om 1 of andere reden maar **1 keer** definiëren. B.v.
+voor een `Random`-object is dat een zeer goed idee. Immers, elke keer we een
+nieuw Random-object maken, zal als *seed* de huidige tijd gebruikt worden,
+met als gevolg dat kort op elkaar gemaakte Random-objecten allen dezelfde
+Random-nummers zullen genereren.
 
-Er is nog een derde reden waarom een variable of een method `static` kan zijn:
+### O.w.v. eerdere static-methods
 
-- Als we de method of variable willen gebruiken in een `static` method, moet de gebruikte method of variable ook `static` zijn. Het is dan wel de vraag of het noodzakelijk is dat de eerste method/variabele ook `static` is.
-
-Kortom: `static` is meestal de uitzondering maar is soms zeer nuttig!
+Als we de method of variable willen gebruiken in een `static` method, moet de
+gebruikte method of variable ook `static` zijn. Het is dan wel de vraag of het
+noodzakelijk is dat de eerste method/variabele ook `static` is.
 
 ## Voorbeelden uit .NET
+
+In volgende voorbeelden zie je dat `static`, hoewel het meestal de uitzondering
+is, soms toch zeer nuttig kan zijn.
 
 - De `Math`-class heeft een hele hoop `static` methods.
 - `Console.WriteLine(...)` is een static method.
