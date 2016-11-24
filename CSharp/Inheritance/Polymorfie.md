@@ -33,6 +33,29 @@ for(Dier d in dierenVanJos) {
 }
 ```
 
+Of een voorbeeld van een functie:
+
+```
+void OnderzoekDier(Dier d) {
+  Console.WriteLine("{0} wordt onderzocht.", d); // hier gebruiken we de ToString-method van Dier
+  d.MaakGeluid();
+  d.MaakGeluid();
+}
+```
+die we dan zo kunnen gebruiken:
+
+```
+List<Dier> dierenBijDeDierenarts = new List<Dier>();
+
+dierenBijDeDierenarts.Add(new Varken());
+dierenBijDeDierenarts.Add(new Paard());
+dierenBijDeDierenarts.Add(new Paard());
+dierenBijDeDierenarts.Add(new Hond());
+
+for(Dier d in dierenBijDeDierenarts) {
+  OnderzoekDier(d);
+}
+```
 
 # OOP
 
@@ -46,4 +69,4 @@ Dit zijn de pijlers:
 
 Polymorfie en overerving gaan natuurlijk hand in hand.
 
-Polymorfie vermijdt een heleboel `if`'s.
+Polymorfie vermijdt een heleboel `if`'s (of een `switch`/`case`).
