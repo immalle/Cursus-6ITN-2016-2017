@@ -25,3 +25,7 @@ abstract class Dier
     }
 } 
 ```
+
+## Voorbeeld
+
+https://dotnetfiddle.net/DcA3k4
