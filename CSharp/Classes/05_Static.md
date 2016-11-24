@@ -112,13 +112,23 @@ gebruiken.
 
 Een voorbeeld is de `Math`-class met methods zoals `Math.Floor`, `Math.Round`, ...
 
-### Een variabele maar 1 keer instantiëren
+### Een variabele maar 1 keer instantiÃ«ren
 
-We willen een variable om 1 of andere reden maar **1 keer** definiëren. B.v.
+We willen een variable om 1 of andere reden maar **1 keer** definiÃ«ren. B.v.
 voor een `Random`-object is dat een zeer goed idee. Immers, elke keer we een
 nieuw Random-object maken, zal als *seed* de huidige tijd gebruikt worden,
 met als gevolg dat kort op elkaar gemaakte Random-objecten allen dezelfde
 Random-nummers zullen genereren.
+
+B.v.
+
+```
+static class RandomGenerator
+{
+    static Random rndGen = new Random();
+    static public int Next { get { return rndGen.Next(100); } }
+}
+```
 
 ### O.w.v. eerdere static-methods
 
