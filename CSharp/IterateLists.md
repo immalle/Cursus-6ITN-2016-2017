@@ -44,11 +44,23 @@ Hiervoor is de `System.Linq`-namespace noodzakelijk. Zie ook [LINQ Introductie](
 
 ## met de ForEach-method van een List
 
+Het afprinten van een lijst:
+
 ```
 List<int> getallen = new List<int>() { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 1 };
 
 getallen.ForEach(x => Console.WriteLine(x)); // kan alleen met List, niet met IEnumerable
 ```
+
+Het berekenen van de som:
+
+```
+int sum = 0;
+numbers.ForEach((x) => sum += x);
+Console.WriteLine("Sum = " + sum);
+```
+
+### Achtergrondinformatie
 
 De `ForEach`-method neemt een `Action<T>` als parameter,
 waarbij `T` afhankelijk is van het type van de `List`.
