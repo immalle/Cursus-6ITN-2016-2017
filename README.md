@@ -29,11 +29,12 @@
 - [Format strings](CSharp/FormatStrings.md)
 - [Methodes aanroepen](CSharp/MethodesAanroepen.md)
 - [Methodes : overloads](CSharp/MethodesOverloads.md)
--  :construction: [LINQ introductie](CSharp/LINQIntro.md)
-- [Extension Methods](CSharp/ExtensionMethods.md)
-- [Itereren over Lists](CSharp/IterateLists.md)
+- :checkered_flag: [LINQ introductie](CSharp/LINQIntro.md)
+- :rocket: [Extension Methods](CSharp/ExtensionMethods.md)
+- :checkered_flag: [Itereren over Lists](CSharp/IterateLists.md)
 - [Attributen](CSharp/Attributen.md)
-- [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
+- :checkered_flag: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
+- :checkered_flag: [Interface : introductie](CSharp/InterfacesIntro.md)
 
 ## Classes
 
@@ -46,13 +47,13 @@
 
 ## Overerving
 
-- :rocket: [Inleiding](CSharp/Inheritance/01_Overerving.md)
-- :rocket: [Virtual en override](CSharp/Inheritance/02_VirtualOverride.md)
-- :rocket: [Abstract](CSharp/Inheritance/03_Abstract.md)
-- :rocket: [Overriden van `ToString`](CSharp/Inheritance/04_OverridenVanToString.md)
-- :rocket: [Base](CSharp/Inheritance/05_Base.md)
-- :rocket: [Constructors en overerving](CSharp/Inheritance/06_Constructors.md)
-- :rocket: [Polymorfie](CSharp/Inheritance/Polymorfie.md)
+- :checkered_flag: [Inleiding](CSharp/Inheritance/01_Overerving.md)
+- :checkered_flag: [Virtual en override](CSharp/Inheritance/02_VirtualOverride.md)
+- :checkered_flag: [Abstract](CSharp/Inheritance/03_Abstract.md)
+- :checkered_flag: [Overriden van `ToString`](CSharp/Inheritance/04_OverridenVanToString.md)
+- :checkered_flag: [Base](CSharp/Inheritance/05_Base.md)
+- :checkered_flag: [Constructors en overerving](CSharp/Inheritance/06_Constructors.md)
+- :checkered_flag: [Polymorfie](CSharp/Inheritance/Polymorfie.md)
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
