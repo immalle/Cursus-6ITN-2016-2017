@@ -44,14 +44,18 @@
 - :pushpin: [Itereren over Lists](CSharp/IterateLists.md)
 - :rocket: [Attributen](CSharp/Attributen.md)
 - :rocket: Unicode karakters
-- :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
-- :rocket: https://www.dotnetperls.com/dictionary
-- :bangbang: toepassing dictionary : switch/case vermijden of mappings maken
 - :pushpin: [Interface : introductie](CSharp/InterfacesIntro.md)
 - :bangbang: Unittesting met MSTest en Directories en Files : https://github.com/vbrh-immalle/DirectoriesAndFileIO
 - :bangbang: Unittesting en RegEx : https://github.com/immalle/UnitTestsVerbeteringTest1RegExCSharp
 - https://learnxinyminutes.com/docs/csharp/
 
+## Dictionaries
+
+- :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
+- :rocket: https://www.dotnetperls.com/dictionary
+- :bangbang: toepassingen dictionary : 
+    - switch/case vermijden (http://stackoverflow.com/questions/2896715/dictionary-with-delegate-or-switch)
+    - mappings maken (https://github.com/vbrh-immalle/SharpShell/blob/18561c3d105e1adbb3871e346fcde7a6f28f15be/Program.cs#L110)
 
 ## Classes
 
@@ -92,6 +96,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - :rocket: qunit testing framework (https://qunitjs.com/)
 - :pushpin: regex + qunit : https://github.com/vbrh-immalle/RegexQunitJavascriptTests
 - :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
+- verband objecten en dictionaries
 
 # VirtualBox
 
