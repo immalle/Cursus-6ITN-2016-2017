@@ -26,6 +26,8 @@
 - :pushpin: [Git commands die je zeker moet kennen](Git/Cmds.md)
 - :pushpin: Automatisch closen van GitHub issues met `Fix #1` (https://help.github.com/articles/closing-issues-via-commit-messages/)
 - :pushpin: gebruik van `y` op GitHub om links naar welbepaalde commit te maken 
+- :rocket: grafisch overzicht met `gitk` (of `gitk -a`)
+
 
 # CSharp
 
