@@ -4,11 +4,14 @@
 - :pushpin: : dit zou je volledig moeten beheersen
 - :rocket: : hier moet je momenteel op oefenen
 - :checkered_flag: : dit komt aan bod op de volgende test
+- :bangbang: : nog niet gevraagd op een test maar kan wel op het PW voorkomen
 
 # Allerlei
 
 - [Begrippenlijst : Allerlei](Begrippenlijst/Allerlei.md)
 - [Speciale karakters : naamgeving + ASCII-code](Begrippenlijst/SpecialeKarakters.md)
+- Newline-karakters op verschillende platformen (Unix: `\n`, OSX: `\r`, Win: `\r\n`)
+- http://www.markdowntutorial.com/
 
 # Excel
 
@@ -16,25 +19,36 @@
 
 # Word
 
-- [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
+- :rocket: [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
 
 # Git
 
-- [Git commands die je zeker moet kennen](Git/Cmds.md)
+- :pushpin: [Git commands die je zeker moet kennen](Git/Cmds.md)
+- :pushpin: Automatisch closen van GitHub issues met `Fix #1` (https://help.github.com/articles/closing-issues-via-commit-messages/)
+- :pushpin: gebruik van `y` op GitHub om links naar welbepaalde commit te maken 
 
 # CSharp
 
 ## Allerlei
 
-- [Format strings](CSharp/FormatStrings.md)
-- [Methodes aanroepen](CSharp/MethodesAanroepen.md)
-- [Methodes : overloads](CSharp/MethodesOverloads.md)
-- :checkered_flag: [LINQ introductie](CSharp/LINQIntro.md)
+- :pushpin: Parsen van command line argumenten (b.v. in https://github.com/vbrh-immalle/SharpShell/blob/eb935427bccd745b35b6ec05074c36fc3b089463/Program.cs)
+- :pushpin: [String.IsNullOrEmpty vs exceptions](CSharp/StringIsNullOrEmptyVsExceptions.md)
+- :pushpin: [Format strings](CSharp/FormatStrings.md)
+- :pushpin: [Methodes aanroepen](CSharp/MethodesAanroepen.md)
+- :pushpin: [Methodes : overloads](CSharp/MethodesOverloads.md)
+- :pushpin: [LINQ introductie](CSharp/LINQIntro.md)
 - :rocket: [Extension Methods](CSharp/ExtensionMethods.md)
-- :checkered_flag: [Itereren over Lists](CSharp/IterateLists.md)
-- [Attributen](CSharp/Attributen.md)
-- :checkered_flag: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
-- :checkered_flag: [Interface : introductie](CSharp/InterfacesIntro.md)
+- :pushpin: [Itereren over Lists](CSharp/IterateLists.md)
+- :rocket: [Attributen](CSharp/Attributen.md)
+- :rocket: Unicode karakters
+- :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
+- :rocket: https://www.dotnetperls.com/dictionary
+- :bangbang: toepassing dictionary : switch/case vermijden of mappings maken
+- :pushpin: [Interface : introductie](CSharp/InterfacesIntro.md)
+- :bangbang: Unittesting met MSTest en Directories en Files : https://github.com/vbrh-immalle/DirectoriesAndFileIO
+- :bangbang: Unittesting en RegEx : https://github.com/immalle/UnitTestsVerbeteringTest1RegExCSharp
+- https://learnxinyminutes.com/docs/csharp/
+
 
 ## Classes
 
@@ -47,19 +61,34 @@
 
 ## Overerving
 
-- :checkered_flag: [Inleiding](CSharp/Inheritance/01_Overerving.md)
-- :checkered_flag: [Virtual en override](CSharp/Inheritance/02_VirtualOverride.md)
-- :checkered_flag: [Abstract](CSharp/Inheritance/03_Abstract.md)
-- :checkered_flag: [Overriden van `ToString`](CSharp/Inheritance/04_OverridenVanToString.md)
-- :checkered_flag: [Base](CSharp/Inheritance/05_Base.md)
-- :checkered_flag: [Constructors en overerving](CSharp/Inheritance/06_Constructors.md)
-- :checkered_flag: [Polymorfie](CSharp/Inheritance/Polymorfie.md)
+- :pushpin: [Inleiding](CSharp/Inheritance/01_Overerving.md)
+- :pushpin: [Virtual en override](CSharp/Inheritance/02_VirtualOverride.md)
+- :pushpin: [Abstract](CSharp/Inheritance/03_Abstract.md)
+- :pushpin: [Overriden van `ToString`](CSharp/Inheritance/04_OverridenVanToString.md)
+- :pushpin: [Base](CSharp/Inheritance/05_Base.md)
+- :pushpin: [Constructors en overerving](CSharp/Inheritance/06_Constructors.md)
+- :pushpin: [Polymorfie](CSharp/Inheritance/Polymorfie.md)
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
+# HTML
+
+- :bangbang: non breaking space `&nbsp;`
+- :rocket: [Font awesome en unicode](Webdesign/FontAwesomeUnicode.md)
+
+# Regular expressions
+
+- :pushpin: RegEx tutorial : https://regexone.com/ 
+- :rocket: RegEx tester : http://regexr.com/
+
 # Javascript
 
-- Google Apps Scripting
+- :rocket: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
+- :rocket: GAS : custom menu (https://developers.google.com/apps-script/guides/menus)
+- :pushpin: regex in Javascript (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
+- :rocket: qunit testing framework (https://qunitjs.com/)
+- :pushpin: regex + qunit : https://github.com/vbrh-immalle/RegexQunitJavascriptTests
+- :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
 
 # VirtualBox
 
@@ -67,12 +96,12 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 # Linux
 
-- [Linux basis-commando's](Linux/BasicCmds.md)
+- :rocket: [Linux basis-commando's](Linux/BasicCmds.md)
 - :construction: [Linux advanced-commando's](Linux/AdvancedCmds.md)
-- [Linux directory structuur](Linux/Directories.md)
-- [Apt repositories en `.deb`-files](Linux/Apt.md)
-- [PATH omgevingsvariabele](Linux/Path.md)
-- [XFCE Window Manager tips](Linux/Xfce.md)
+- :rocket: [Linux directory structuur](Linux/Directories.md)
+- :rocket: [Apt repositories en `.deb`-files](Linux/Apt.md)
+- :rocket: [PATH omgevingsvariabele](Linux/Path.md)
+- :rocket: [XFCE Window Manager tips](Linux/Xfce.md)
 
 # HTTP
 
