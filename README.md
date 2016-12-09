@@ -39,15 +39,17 @@
 - :pushpin: [Format strings](CSharp/FormatStrings.md)
 - :pushpin: [Methodes aanroepen](CSharp/MethodesAanroepen.md)
 - :pushpin: [Methodes : overloads](CSharp/MethodesOverloads.md)
-- :pushpin: [LINQ introductie](CSharp/LINQIntro.md)
-- :rocket: [Extension Methods](CSharp/ExtensionMethods.md)
 - :pushpin: [Itereren over Lists](CSharp/IterateLists.md)
 - :rocket: [Attributen](CSharp/Attributen.md)
-- :rocket: Unicode karakters
-- :pushpin: [Interface : introductie](CSharp/InterfacesIntro.md)
 - :bangbang: Unittesting met MSTest en Directories en Files : https://github.com/vbrh-immalle/DirectoriesAndFileIO
 - :bangbang: Unittesting en RegEx : https://github.com/immalle/UnitTestsVerbeteringTest1RegExCSharp
 - https://learnxinyminutes.com/docs/csharp/
+
+## LINQ
+
+- :rocket: [Extension Methods](CSharp/ExtensionMethods.md)
+- :pushpin: [LINQ introductie](CSharp/LINQIntro.md)
+- :pushpin: [LINQ voorbeelden](CSharp/LINQExamples.md)
 
 ## Dictionaries
 
@@ -81,6 +83,10 @@
 - :rocket: Uitgebreid voorbeeld : https://github.com/vbrh-immalle/Traffic
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
+
+Interfaces
+
+- :pushpin: [Interface : introductie](CSharp/InterfacesIntro.md)
 
 # HTML
 
