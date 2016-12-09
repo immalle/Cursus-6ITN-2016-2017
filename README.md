@@ -75,6 +75,8 @@
 - :pushpin: [Base](CSharp/Inheritance/05_Base.md)
 - :pushpin: [Constructors en overerving](CSharp/Inheritance/06_Constructors.md)
 - :pushpin: [Polymorfie](CSharp/Inheritance/Polymorfie.md)
+- :pushpin: [Polymorfie voorbeeld met WPF shapes](CSharp/Inheritance/PolymorfieShapes.md)
+- :rocket: Uitgebreid voorbeeld : https://github.com/vbrh-immalle/Traffic
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
