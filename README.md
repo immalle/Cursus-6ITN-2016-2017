@@ -33,6 +33,7 @@
 
 - :pushpin: Parsen van command line argumenten (b.v. in https://github.com/vbrh-immalle/SharpShell/blob/eb935427bccd745b35b6ec05074c36fc3b089463/Program.cs)
 - :pushpin: [String.IsNullOrEmpty vs exceptions](CSharp/StringIsNullOrEmptyVsExceptions.md)
+- :bangbang: [Unicode karakters in C#](CSharp/Unicode.md)
 - :pushpin: [Format strings](CSharp/FormatStrings.md)
 - :pushpin: [Methodes aanroepen](CSharp/MethodesAanroepen.md)
 - :pushpin: [Methodes : overloads](CSharp/MethodesOverloads.md)
