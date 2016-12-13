@@ -25,9 +25,14 @@
 
 - :pushpin: [Git commands die je zeker moet kennen](Git/Cmds.md)
 - :pushpin: Automatisch closen van GitHub issues met `Fix #1` (https://help.github.com/articles/closing-issues-via-commit-messages/)
-- :pushpin: gebruik van `y` op GitHub om links naar welbepaalde commit te maken 
+- :pushpin: gebruik van `y` op GitHub om links naar welbepaalde commit te maken
 - :rocket: grafisch overzicht met `gitk` (of `gitk -a`)
 
+# Regular expressions
+
+- :pushpin: RegEx tutorial : https://regexone.com/
+- :rocket: RegEx tester : http://regexr.com/
+- :bangbang: [Regular expressions : belangrijkste begrippen a.h.v. een voorbeeld](Regex/RegexVoorbeeld.md)
 
 # CSharp
 
@@ -41,9 +46,18 @@
 - :pushpin: [Methodes : overloads](CSharp/MethodesOverloads.md)
 - :pushpin: [Itereren over Lists](CSharp/IterateLists.md)
 - :rocket: [Attributen](CSharp/Attributen.md)
+- https://learnxinyminutes.com/docs/csharp/
+
+## Regex in CSharp
+
+- :bangbang: [Eenvoudige Regular Expressions in C#](CSharp/RegExSimple.md)
+- :bangbang: [Regular Expressions in C# met groups](CSharp/RegExGroups.md)
+
+## Unittesting in CSharp
+
 - :bangbang: Unittesting met MSTest en Directories en Files : https://github.com/vbrh-immalle/DirectoriesAndFileIO
 - :bangbang: Unittesting en RegEx : https://github.com/immalle/UnitTestsVerbeteringTest1RegExCSharp
-- https://learnxinyminutes.com/docs/csharp/
+
 
 ## LINQ
 
@@ -53,9 +67,9 @@
 
 ## Dictionaries
 
-- :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md) 
+- :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
 - :rocket: https://www.dotnetperls.com/dictionary
-- :bangbang: toepassingen dictionary : 
+- :bangbang: toepassingen dictionary :
     - switch/case vermijden
     - mappings maken
     - https://github.com/vbrh-immalle/SharpShell/blob/18561c3d105e1adbb3871e346fcde7a6f28f15be/Program.cs#L110
@@ -63,8 +77,8 @@
 
 ## Classes
 
-- :pushpin: [Access specifiers : `public`, `protected`, `private`](CSharp/Classes/01_ClassesAccessSpecifiers.md) 
-- :pushpin: [Properties](CSharp/Classes/02_Properties.md) 
+- :pushpin: [Access specifiers : `public`, `protected`, `private`](CSharp/Classes/01_ClassesAccessSpecifiers.md)
+- :pushpin: [Properties](CSharp/Classes/02_Properties.md)
 - :pushpin: [(Default) constructors](CSharp/Classes/03_Constructors.md)
 - :pushpin: [Oef `Voertuig`](CSharp/Classes/03_OefVoertuig.md)
 - :pushpin: [`this`](CSharp/Classes/04_This.md)
@@ -93,11 +107,6 @@ Interfaces
 - :bangbang: non breaking space `&nbsp;`
 - :rocket: [Font awesome en unicode](Webdesign/FontAwesomeUnicode.md)
 
-# Regular expressions
-
-- :pushpin: RegEx tutorial : https://regexone.com/ 
-- :rocket: RegEx tester : http://regexr.com/
-
 # Javascript
 
 - :rocket: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
@@ -124,4 +133,3 @@ Interfaces
 # HTTP
 
 - [Curl : CLI http client](Http/Curl.md)
-
