@@ -32,6 +32,7 @@
 
 - :pushpin: RegEx tutorial : https://regexone.com/
 - :rocket: RegEx tester : http://regexr.com/
+- :bangbang: [Overicht van de belangrijkste begrippen](Regex/Regex.md)
 - :bangbang: [Regular expressions : belangrijkste begrippen a.h.v. een voorbeeld](Regex/RegexVoorbeeld.md)
 
 # CSharp
