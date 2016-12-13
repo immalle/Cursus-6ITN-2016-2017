@@ -34,6 +34,7 @@
 - :rocket: RegEx tester : http://regexr.com/
 - :bangbang: [Overicht van de belangrijkste begrippen](Regex/Regex.md)
 - :bangbang: [Regular expressions : belangrijkste begrippen a.h.v. een voorbeeld](Regex/RegexVoorbeeld.md)
+- :rocket: Zeer volledige tutorial : http://www.regular-expressions.info/tutorial.html
 
 # CSharp
 
@@ -51,14 +52,13 @@
 
 ## Regex in CSharp
 
-- :bangbang: [Eenvoudige Regular Expressions in C#](CSharp/RegExSimple.md)
-- :bangbang: [Regular Expressions in C# met groups](CSharp/RegExGroups.md)
+- :bangbang: [Eenvoudige Regular Expressions in C#](CSharp/RegexSimple.md)
+- :bangbang: [Regular Expressions in C# met groups](CSharp/RegexGroups.md)
 
 ## Unittesting in CSharp
 
 - :bangbang: Unittesting met MSTest en Directories en Files : https://github.com/vbrh-immalle/DirectoriesAndFileIO
 - :bangbang: Unittesting en RegEx : https://github.com/immalle/UnitTestsVerbeteringTest1RegExCSharp
-
 
 ## LINQ
 
