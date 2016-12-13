@@ -9,7 +9,19 @@
 - character classes (cijfer, letter, niet-cijfer, niet-letter, spatie, niet-spatie, ..., control karakter, ..., IsGreek, Nd, IsBoxDrawing, ...)
 - ranges (zelfgedefinieerde character classes) (`[abc]`, `[^abc]`, `[a-z]`, `[a-z][0-9]`, ...)
 - groups (matches) (b.v. (`((group) in een group))`)
+- escapen (met `\`)
 - ascii of unicode
+
+### Escapen
+
+Sommige karakters hebben in een regular expression een bepaalde betekenis,
+zoals:
+
+- `.` : alle karakters
+- `+` : de 1-of-meer-quantifier
+- ...
+
+Als je een *letterlijke* `.` nodig hebt, moet je escapen : `\.`.
 
 ### Ankerpunten
 
@@ -44,6 +56,9 @@ Een range voor alle klinkers : `[aeiou]`.
 - `\w` komt overeen met `[a-zA-Z0-9_]` (dus ook de underscore en getallen)
 - `\W` komt overeen met `[^\w]`
 - ...
+
+`\s` kan je gebruiken voor spatie maar je kan even goed een letterlijke ` `
+gebruiken. `\S` komt overeen met `[^\s]` : alles wat geen spatie is.
 
 ### Groups
 
@@ -89,6 +104,33 @@ zal al volgende strings matchen:
 - `baam`
 - `boom`
 - `buum`
+
+## Voorbeeld 4
+
+Alle strings die met een `.` eindigen:
+
+```
+\.$
+```
+
+zal al volgende strings matchen:
+
+- `Dit is een zin.`
+- `...`
+- ...
+
+## Voorbeeld 5
+
+Alle strings waarin een berekening met `+` of `*` voorkomt:
+
+```
+\d+[\+\*]\d+
+```
+
+zal al volgende strings matchen:
+
+- `375+445`
+- `Het product 3*8 is 36.`
 
 ## Globbing
 
