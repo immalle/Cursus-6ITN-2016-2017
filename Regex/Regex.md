@@ -72,6 +72,24 @@ Groups kunnen een naam meekrijgen:
 
 `Er zijn (?<aantal>\d+) leerlingen aanwezig.`
 
+## Groups met OR
+
+`|` is de OF-operator. Je moet groupings gebruiken om ervan gebruik te kunnen
+maken.
+
+b.v.
+
+```
+^Er zit een (kat|hond) in de keuken.$
+```
+
+zal al volgende zinnen matchen:
+
+- Er zit een (kat) in de keuken.
+- Er zit een (hond) in de keuken.
+
+Bovendien is `kat` of `hond` beschikbaar als group.
+
 ## Voorbeeld 1
 
 ```
