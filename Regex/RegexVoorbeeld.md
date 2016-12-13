@@ -54,7 +54,7 @@ B.v. in
 ^\d-[a-zA-Z]{3}-\d{3}$
 ```
 
-wordt de `-` (dash) op 2 manieren voor:
+komt de `-` (dash) op 2 manieren voor:
 
 - als te matchen karakter
 - om een range aan te duiden

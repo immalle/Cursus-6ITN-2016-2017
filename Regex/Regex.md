@@ -22,6 +22,9 @@
 - `*` : 0 of meer keer
 - `+` : 1 of meer keer
 
+- `{2}` : 2 keer
+- `{3,7}` : 3 tot 7 keer
+
 ### Ranges
 
 `[abc]` wil zeggen : het karakter `a` of `b` of `c`
@@ -75,6 +78,18 @@ zal al volgende strings matchen:
 - `huttantot`
 - ...
 
+## Voorbeeld 3
+
+```
+b[aou]{2}m
+```
+
+zal al volgende strings matchen:
+
+- `baam`
+- `boom`
+- `buum`
+
 ## Globbing
 
 Je mag regular expressions niet verwarren met **globbing**, zoals b.v.
@@ -85,4 +100,3 @@ mv index.htm? Index.html
 ```
 
 > Globbing gebruik je typisch in een shell.
-
