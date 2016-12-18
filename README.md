@@ -48,6 +48,7 @@
 - :pushpin: [Methodes : overloads](CSharp/MethodesOverloads.md)
 - :pushpin: [Itereren over Lists](CSharp/IterateLists.md)
 - :rocket: [Attributen](CSharp/Attributen.md)
+- :bangbang: [Exceptions](CSharp/Exceptions.md)
 - https://learnxinyminutes.com/docs/csharp/
 
 ## Regex in CSharp
