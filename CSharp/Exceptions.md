@@ -35,7 +35,8 @@ Je kan zelf de class `Exception` ook overerven om nieuwe Exceptions te maken.
 Of als je b.v. in je applicatie een Exception wil werpen die te maken heeft
 met IO (input/output) kan je overerven van `System.IO.IOException`.
 
-B.v. `System.IO.DirectoryNotFoundException` erft zelf over van `System.IO.Exception`.
+B.v. `System.IO.DirectoryNotFoundException` erft zelf over van `System.IO.IOException`,
+die op haar beurt overerft van `System.Exception`.
 Zie b.v. https://msdn.microsoft.com/en-us/library/system.io.directorynotfoundexception(v=vs.110).aspx
 
 ## Gebruik
