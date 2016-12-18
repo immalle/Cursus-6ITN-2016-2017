@@ -330,7 +330,7 @@ Voor computer graphics wordt meestal het assenstelsel gebruikt waarbij:
 -   de X-as bovenaan het scherm ligt, een horizontale richting heeft en de zin van
     links naar rechts is
 -   de Y-as links op het scherm ligt, een verticale richting heeft en de zin van
-    onder naar boven is
+    boven naar onder is
 
 Coördinaat (0,0) is daarom de linkerbovenboek.
 Coördinaat (1024,768) is de rechter-onderhoek (bij een schermresolutie van
