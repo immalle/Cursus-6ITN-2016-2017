@@ -102,9 +102,14 @@
 
 zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming Guide
 
-Interfaces
+## Interfaces
 
 - :pushpin: [Interface : introductie](CSharp/InterfacesIntro.md)
+
+## Software Design
+
+- [Voorbeeld bijhouden van een *program state* en gebruik van Hashmap (Dictionary)](CSharp/Voorbeelden/)
+
 
 # HTML
 
