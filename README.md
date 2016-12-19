@@ -35,6 +35,7 @@
 - :bangbang: [Overicht van de belangrijkste begrippen](Regex/Regex.md)
 - :bangbang: [Regular expressions : belangrijkste begrippen a.h.v. een voorbeeld](Regex/RegexVoorbeeld.md)
 - :rocket: Zeer volledige tutorial : http://www.regular-expressions.info/tutorial.html
+- :new: [Voorbeeld in Powershell (ISE)](Regex/PowershellISE.md)
 
 # CSharp
 
