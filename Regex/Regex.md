@@ -35,7 +35,7 @@ Als je een *letterlijke* `.` nodig hebt, moet je escapen : `\.`.
 - `+` : 1 of meer keer
 
 - `{2}` : 2 keer
-- `{3,7}` : 3 tot 7 keer
+- `{3,7}` : 3 tot en met 7 keer
 
 ### Ranges
 
