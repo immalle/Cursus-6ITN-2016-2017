@@ -67,6 +67,7 @@
 - :rocket: [Extension Methods](CSharp/ExtensionMethods.md)
 - :pushpin: [LINQ introductie](CSharp/LINQIntro.md)
 - :pushpin: [LINQ voorbeelden](CSharp/LINQExamples.md)
+- :new: [LINQ `Count` met en zonder lambda expressie](https://dotnetfiddle.net/o5T9Dl)
 
 ## Dictionaries
 
