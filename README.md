@@ -139,6 +139,12 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - :rocket: [PATH omgevingsvariabele](Linux/Path.md)
 - :rocket: [XFCE Window Manager tips](Linux/Xfce.md)
 
+# Powershell
+
+- :rocket: [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
+- :rocket: [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
+- :rocket: [Enkele commando's](Powershell/EnkeleCommandos)
+
 # HTTP
 
 - [Curl : CLI http client](Http/Curl.md)
