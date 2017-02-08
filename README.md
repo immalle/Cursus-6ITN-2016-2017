@@ -145,8 +145,8 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - :rocket: [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
 - :rocket: [Enkele commando's](Powershell/EnkeleCommandos.md)
 - :rocket: [Parameters meegeven](Powershell/Parameters.md)
-- :rocket: [Commando's combineren met `|` / OOP Shell](Powershell/Commandos.md)
-- :rocket: [Variabelen](Powershell/Variabelen.md]
+- :rocket: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
+- :rocket: [Variabelen](Powershell/Variabelen.md)
 
 # HTTP
 
