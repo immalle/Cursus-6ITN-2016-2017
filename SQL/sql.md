@@ -33,11 +33,7 @@ wildcards:
 
 - `_` : enkel karakter
 - `%` : meerdere karakters
-- `[abc]%` : begint met a, b of c (enkel SQL Server, voor MySQL gebruik REGEXP)
-- `[^abc]%` of `[!abc]%` : begint NIET met a, b of c (idem)
-
-> - In MySQL: `... WHERE naam REGEXP '^[abc]'`
-> - Zie toekomstige les: regular expressions
+- `... WHERE naam REGEXP '^[abc]'` : regular expressions
 
 # ORDER BY
 
@@ -49,12 +45,6 @@ sorteren van queries
 # LIMIT
 
 - `LIMIT 3`
-
-# Aggregatie-functies
-
-```
-SELECT COUNT(*) FROM fake_apps
-```
 
 # Voorbeelden (Codecademy)
 
@@ -70,10 +60,12 @@ SELECT COUNT(*) FROM fake_apps
 - `SELECT * FROM movies ORDER BY imdb_rating DESC;`
 - `SELECT * FROM movies ORDER BY imdb_rating ASC LIMIT 3;`
 
+# Aggregatie-functies
 
-
-
-# Group by
+```
+SELECT COUNT(*) FROM fake_apps
+```
+## Group by
 
 ```
 SELECT price, COUNT(*) FROM fake_apps
@@ -86,7 +78,7 @@ WHERE downloads > 20000
 GROUP BY price;
 ```
 
-# Sum
+## Sum
 
 ```
 SELECT SUM(downloads) FROM fake_apps;
@@ -97,7 +89,7 @@ SELECT category, SUM(downloads) FROM fake_apps
 GROUP BY category;
 ```
 
-# Max
+## Max
 
 ```
 SELECT MAX(downloads) FROM fake_apps;
@@ -108,7 +100,7 @@ SELECT name, category, MAX(downloads) FROM fake_apps
 GROUP BY category;
 ```
 
-# Min
+## Min
 
 ```
 SELECT MIN(downloads) FROM fake_apps;
@@ -119,7 +111,7 @@ SELECT name, category, MIN(downloads) FROM fake_apps
 GROUP BY category;
 ```
 
-# Avg
+## Avg
 
 ```
 SELECT AVG(downloads) FROM fake_apps;
@@ -155,8 +147,6 @@ Soorten joins:
 - left-join
 - right-join
 
-# Tabellen joinen
-
 Domweg aan elkaar plakken (cross-join),
 er is geen echte betekenis aan deze query:
 
@@ -164,7 +154,7 @@ er is geen echte betekenis aan deze query:
 SELECT albums.name, albums.year, artists.name FROM albums, artists;
 ```
 
-Wat wel zou kunnen (inner join):
+Een inner join geschreven met WHERE:
 
 ```
 SELECT albums.name, albums.year, artists.name FROM albums, artists WHERE albums.artist_id = artists.id;
