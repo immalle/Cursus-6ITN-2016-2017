@@ -151,3 +151,8 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 # HTTP
 
 - [Curl : CLI http client](Http/Curl.md)
+
+# SQL
+
+- [SQL](SQL/Sql.md)
+- [SQL files](SQL/dbfiles/)
