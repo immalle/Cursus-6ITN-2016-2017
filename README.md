@@ -154,5 +154,5 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 # SQL
 
-- [SQL](SQL/Sql.md)
+- [SQL](SQL/sql.md)
 - [SQL files](SQL/dbfiles/)
