@@ -151,6 +151,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 # HTTP
 
 - [Curl : CLI http client](Http/Curl.md)
+- [Http en Php analyseren met wireshark](Http/WiresharkHttpPhpAnalyse)
 
 # SQL
 
