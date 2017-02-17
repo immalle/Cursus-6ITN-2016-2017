@@ -30,3 +30,7 @@ waarbij er typisch classes zijn die een bepaalde rol vervullen:
   overeen met de tabellen uit een database
 - `View` : een template waarin variabelen gebruikt kunnen worden
 - `Controller` : handelt webrequests af en bepaalt dus mee de **routering**
+
+## Further information
+
+http://softwareengineering.stackexchange.com/questions/122190/with-php-frameworks-why-is-the-route-concept-used
