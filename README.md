@@ -158,6 +158,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 - [Routes](Webapps/Routes.md)
 - [Php Cookieclicker: cookies vs. sessions](https://github.com/vbrh-immalle/phpcookieclicker.git)
+- [Php basics](https://github.com/vbrh-immalle/php-basics)
 
 # SQL
 
