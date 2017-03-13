@@ -166,6 +166,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 - [Python versies](Python/PythonVersies.md)
 - [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
+- [Python console](Python/PythonConsole.md)
 
 # SQL
 
