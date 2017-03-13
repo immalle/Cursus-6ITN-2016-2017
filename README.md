@@ -154,11 +154,13 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - [Cookies analyseren met Fiddler en Wireshark](Http/CookiesFiddlerWireshark)
 - [Http en Php analyseren met wireshark](Http/WiresharkHttpPhpAnalyse)
 
-# Web-applicaties
+# Web-applicaties met Php
 
 - [Routes](Webapps/Routes.md)
 - [Php Cookieclicker: cookies vs. sessions](https://github.com/vbrh-immalle/phpcookieclicker.git)
 - [Php basics](https://github.com/vbrh-immalle/php-basics)
+- [Php MySQL](https://github.com/vbrh-immalle/php-mysql)
+- [Php forms](https://github.com/vbrh-immalle/php-forms)
 
 # SQL
 
