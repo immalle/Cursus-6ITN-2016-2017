@@ -162,6 +162,11 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - [Php MySQL](https://github.com/vbrh-immalle/php-mysql)
 - [Php forms](https://github.com/vbrh-immalle/php-forms)
 
+# Web-applicaties met Python
+
+- [Python versies](Python/PythonVersies.md)
+- [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
+
 # SQL
 
 - [SQL](SQL/sql.md)
