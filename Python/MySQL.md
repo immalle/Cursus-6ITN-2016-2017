@@ -39,4 +39,13 @@ def get_messages():
   close_db(c)
 ```
 
+Uitleg van de code:
+
+1. De method `connect_db` maakt een dictionary met config-settings
+   en returnt een connection-object.
+2. De method `close_db` sluit de connectie geassocieerd met een
+   connection-object.
+3. De method `get_db` gebruik een `cursor` van het connection-object
+   en itereert vervolgens met een for-loop over elke rij.
+4. De method `get_messages` gebruikt bovenstaande methods.
 
