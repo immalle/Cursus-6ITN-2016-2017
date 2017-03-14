@@ -168,6 +168,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
 - [Python console](Python/PythonConsole.md)
 - [Flask](Python/Flask.md)
+- [MySQL](Python/MySQL.md)
 
 # SQL
 
