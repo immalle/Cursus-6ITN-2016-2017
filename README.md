@@ -125,6 +125,18 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - :pushpin: regex + qunit : https://github.com/vbrh-immalle/RegexQunitJavascriptTests
 - :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
 - verband objecten en dictionaries
+
+Oef. om te proberen in de Javascript terminal:
+
+Vertrek van `blank.html`:
+
+```
+<html>
+<head></head>
+<body></body>
+</html>
+```
+
 - :rocket: [Oef. Ajax](Javascript/oef_ajax.md)
 - :rocket: [Oef. DomApi](Javascript/oef_domapi.md)
 - :rocket: [Oef. event handlers](Javascript/oef_eventhandlers.md)
