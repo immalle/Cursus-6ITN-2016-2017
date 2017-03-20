@@ -118,13 +118,18 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 # Javascript
 
-- :rocket: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
-- :rocket: GAS : custom menu (https://developers.google.com/apps-script/guides/menus)
+- :pushpin: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
+- :pushpin: GAS : custom menu (https://developers.google.com/apps-script/guides/menus)
 - :pushpin: regex in Javascript (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-- :rocket: qunit testing framework (https://qunitjs.com/)
+- :pushpin: qunit testing framework (https://qunitjs.com/)
 - :pushpin: regex + qunit : https://github.com/vbrh-immalle/RegexQunitJavascriptTests
 - :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
 - verband objecten en dictionaries
+- :rocket: [Oef. Ajax](Javascript/oef_ajax.md)
+- :rocket: [Oef. DomApi](Javascript/dom_api.md)
+- :rocket: [Oef. event handlers](Javascript/oef_eventhandlers.md)
+- :rocket: [Oef. form uitlezen](Javascript/oef_form.md)
+- :rocket: [Oef. JSON](Javascript/oef_json.md) 
 
 # VirtualBox
 
