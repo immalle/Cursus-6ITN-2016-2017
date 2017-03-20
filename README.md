@@ -126,7 +126,7 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 - :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
 - verband objecten en dictionaries
 - :rocket: [Oef. Ajax](Javascript/oef_ajax.md)
-- :rocket: [Oef. DomApi](Javascript/dom_api.md)
+- :rocket: [Oef. DomApi](Javascript/oef_dom_api.md)
 - :rocket: [Oef. event handlers](Javascript/oef_eventhandlers.md)
 - :rocket: [Oef. form uitlezen](Javascript/oef_form.md)
 - :rocket: [Oef. JSON](Javascript/oef_json.md) 
