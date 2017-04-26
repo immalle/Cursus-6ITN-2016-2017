@@ -7,11 +7,15 @@ Run `python` of `python3` en probeer een aantal dingen zoals:
 - een dictionary maken
 - een for-loop schrijven
 - array slices gebruiken
-- een functie definiëren
-- een class definiëren
+- een functie definiÃ«ren
+- een class definiÃ«ren
 - ...
 
-Zie b.v. https://learnxinyminutes.com/docs/python/
+Zie ook :
+
+- https://learnxinyminutes.com/docs/python/
+- https://www.sololearn.com/Course/Python/
+- ...
 
 # IPython
 
@@ -25,11 +29,11 @@ Run met `ipython`.
 # Jupyter
 
 Jupyter is een web-front-end voor IPython met nog extra
-mogelijkheden.
+mogelijkheden. 
 
 ```
 sudo apt-get install jupyter
 ```
 
-`jupyter notebook` om de web-server te starten.
+`jupyter notebook` om de notebook-web-server te starten. (Let op `token`!)
 
