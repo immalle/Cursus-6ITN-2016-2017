@@ -191,3 +191,7 @@ Vertrek van `blank.html`:
 
 - [SQL](SQL/sql.md)
 - [SQL files](SQL/dbfiles/)
+- [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
+- [Voorbeeld 1-op-veel](SQL/voorbeeld-1-op-veel.md)
+- [Voorbeeld veel-op-veel](SQL/voorbeeld-veel-op-veel.md)
+
