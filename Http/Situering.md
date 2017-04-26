@@ -7,7 +7,7 @@ HTTP is een Applicatie-protocol, momenteel bovenop TCP/IP.
 - het is tekst-gebaseerd
 - het heeft een *header* met *key-value*-velden
 - de header eindigt met 2 *enters* `\r\n\r\n` en meestal een `Content-length`-veld
-- het heeft een *body* (die simpelweg begint onder de headers)
+- het heeft een *body* (met een lengte `Content-length`
 - er zijn:
 	- requests
 	- responses
