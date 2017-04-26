@@ -5,6 +5,7 @@
 - :rocket: : hier moet je momenteel op oefenen
 - :checkered_flag: : dit komt aan bod op de volgende test
 - :bangbang: : nog niet gevraagd op een test maar kan wel op het PW voorkomen
+- :earth_africa: : externe link
 
 # Allerlei
 
@@ -19,7 +20,7 @@
 
 # Word
 
-- :rocket: [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
+- :earth_africa: [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
 
 # Git
 
@@ -72,7 +73,7 @@
 ## Dictionaries
 
 - :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
-- :rocket: https://www.dotnetperls.com/dictionary
+- :earth_africa: https://www.dotnetperls.com/dictionary
 - :bangbang: toepassingen dictionary :
     - switch/case vermijden
     - mappings maken
@@ -189,8 +190,8 @@ Vertrek van `blank.html`:
 
 # SQL
 
-- https://sqlbolt.com/
-- https://www.sololearn.com/Course/SQL/
+- :earth_africa: https://sqlbolt.com/
+- :earth_africa: https://www.sololearn.com/Course/SQL/
 - [SQL](SQL/sql.md)
 - [SQL files](SQL/dbfiles/)
 - [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
