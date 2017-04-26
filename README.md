@@ -159,12 +159,15 @@ Vertrek van `blank.html`:
 
 # Powershell
 
-- :rocket: [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
-- :rocket: [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
-- :rocket: [Enkele commando's](Powershell/EnkeleCommandos.md)
-- :rocket: [Parameters meegeven](Powershell/Parameters.md)
-- :rocket: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
-- :rocket: [Variabelen](Powershell/Variabelen.md)
+- :earth_africa: [Powerpoint Powershell 1 (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/guestaccess.aspx?docid=0c14cc059872a48a9ba3a1770094870ea&authkey=ATA2fxjifPyXUGf0ESpCDjo)
+- :earth_africa: [Powerpoint Powershell 2 (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/guestaccess.aspx?docid=18ca1fe26a5df4164a6f2fc3508414de9&authkey=AXabqQuhTw5xtf9TFXw_1gg)
+
+- [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
+- [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
+- [Enkele commando's](Powershell/EnkeleCommandos.md)
+- [Parameters meegeven](Powershell/Parameters.md)
+- [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
+- [Variabelen](Powershell/Variabelen.md)
 
 # HTTP
 
