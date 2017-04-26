@@ -189,6 +189,8 @@ Vertrek van `blank.html`:
 
 # SQL
 
+- https://sqlbolt.com/
+- https://www.sololearn.com/Course/SQL/
 - [SQL](SQL/sql.md)
 - [SQL files](SQL/dbfiles/)
 - [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
