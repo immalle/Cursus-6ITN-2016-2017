@@ -170,6 +170,7 @@ Vertrek van `blank.html`:
 
 # HTTP
 
+- [Situering](Http/Situering.md)
 - [Curl : CLI http client](Http/Curl.md)
 - [Cookies analyseren met Fiddler en Wireshark](Http/CookiesFiddlerWireshark)
 - [Http en Php analyseren met wireshark](Http/WiresharkHttpPhpAnalyse)
