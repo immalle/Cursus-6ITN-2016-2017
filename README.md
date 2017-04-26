@@ -192,6 +192,7 @@ Vertrek van `blank.html`:
 
 - :earth_africa: https://sqlbolt.com/
 - :earth_africa: https://www.sololearn.com/Course/SQL/
+- :earth_africa: [Powerpoint (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/WopiFrame.aspx?docid=08a4815504fea42cab8bbc5a179409109&authkey=AZ1tj1ub6zErS16YElYWhxg&action=view)
 - [SQL](SQL/sql.md)
 - [SQL files](SQL/dbfiles/)
 - [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
