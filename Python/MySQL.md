@@ -49,3 +49,8 @@ Uitleg van de code:
    en itereert vervolgens met een for-loop over elke rij.
 4. De method `get_messages` gebruikt bovenstaande methods.
 
+
+# Opmerking
+
+I.p.v. `mysql.connector` kan je ook `MySQLdb` gebruiken.
+Zie ook http://stackoverflow.com/questions/32575857/the-differences-between-mysqldb-and-mysqlconnector
