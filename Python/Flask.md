@@ -33,3 +33,7 @@ from flask import Flask, url_for
 def index():
     return redirect(url_for('static', filename='index.html'))
 ```
+
+## Screenshot
+
+![Screenshot: running Flask](img/FlaskHelloWorld.png)
