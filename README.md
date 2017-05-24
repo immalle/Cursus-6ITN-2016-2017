@@ -203,3 +203,10 @@ Vertrek van `blank.html`:
 - [Voorbeeld 1-op-veel](SQL/voorbeeld-1-op-veel.md)
 - [Voorbeeld veel-op-veel](SQL/voorbeeld-veel-op-veel.md)
 
+# Javascript
+
+- higher order functions
+
+# Leerstof PW juni
+
+- [Leerstof PW juni](leerstof_juni.md)
