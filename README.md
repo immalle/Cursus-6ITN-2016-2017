@@ -5,6 +5,7 @@
 - :rocket: : hier moet je momenteel op oefenen
 - :checkered_flag: : dit komt aan bod op de volgende test
 - :bangbang: : nog niet gevraagd op een test maar kan wel op het PW voorkomen
+- :earth_africa: : externe link
 
 # Allerlei
 
@@ -19,7 +20,7 @@
 
 # Word
 
-- :rocket: [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
+- :earth_africa: [Non breaking space](http://wordribbon.tips.net/T013071_Inserting_a_Non-Breaking_Space.html)
 
 # Git
 
@@ -72,7 +73,7 @@
 ## Dictionaries
 
 - :bangbang: [Dictionaries : introductie a.h.v. `woordenTeller` en `AnalyseerZin`](CSharp/DictionaryIntro.md)
-- :rocket: https://www.dotnetperls.com/dictionary
+- :earth_africa: https://www.dotnetperls.com/dictionary
 - :bangbang: toepassingen dictionary :
     - switch/case vermijden
     - mappings maken
@@ -118,13 +119,30 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 # Javascript
 
-- :rocket: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
-- :rocket: GAS : custom menu (https://developers.google.com/apps-script/guides/menus)
+- :pushpin: Google Apps Scripting (GAS) (https://www.google.com/script/start/)
+- :pushpin: GAS : custom menu (https://developers.google.com/apps-script/guides/menus)
 - :pushpin: regex in Javascript (https://developer.mozilla.org/nl/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
-- :rocket: qunit testing framework (https://qunitjs.com/)
+- :pushpin: qunit testing framework (https://qunitjs.com/)
 - :pushpin: regex + qunit : https://github.com/vbrh-immalle/RegexQunitJavascriptTests
 - :pushpin: [Voorbeeld: regex met grouping in GAS](Javascript/GASRegex.md)
 - verband objecten en dictionaries
+
+Oef. om te proberen in de Javascript terminal:
+
+Vertrek van `blank.html`:
+
+```
+<html>
+<head></head>
+<body></body>
+</html>
+```
+
+- :rocket: [Oef. Ajax](Javascript/oef_ajax.md)
+- :rocket: [Oef. DomApi](Javascript/oef_domapi.md)
+- :rocket: [Oef. event handlers](Javascript/oef_eventhandlers.md)
+- :rocket: [Oef. form uitlezen](Javascript/oef_form.md)
+- :rocket: [Oef. JSON](Javascript/oef_json.md) 
 
 # VirtualBox
 
@@ -141,18 +159,54 @@ zie ook: https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx : C# Programming
 
 # Powershell
 
-- :rocket: [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
-- :rocket: [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
-- :rocket: [Enkele commando's](Powershell/EnkeleCommandos.md)
-- :rocket: [Parameters meegeven](Powershell/Parameters.md)
-- :rocket: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
-- :rocket: [Variabelen](Powershell/Variabelen.md)
+- :earth_africa: [Powerpoint Powershell 1 (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/guestaccess.aspx?docid=0c14cc059872a48a9ba3a1770094870ea&authkey=ATA2fxjifPyXUGf0ESpCDjo)
+- :earth_africa: [Powerpoint Powershell 2 (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/guestaccess.aspx?docid=18ca1fe26a5df4164a6f2fc3508414de9&authkey=AXabqQuhTw5xtf9TFXw_1gg)
+- [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
+- [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
+- [Enkele commando's](Powershell/EnkeleCommandos.md)
+- [Parameters meegeven](Powershell/Parameters.md)
+- [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
+- [Variabelen](Powershell/Variabelen.md)
 
 # HTTP
 
+- [Situering](Http/Situering.md)
 - [Curl : CLI http client](Http/Curl.md)
+- [Cookies analyseren met Fiddler en Wireshark](Http/CookiesFiddlerWireshark)
+- [Http en Php analyseren met wireshark](Http/WiresharkHttpPhpAnalyse)
+
+# Web-applicaties met Php
+
+- [Routes](Webapps/Routes.md)
+- [Php Cookieclicker: cookies vs. sessions](https://github.com/vbrh-immalle/phpcookieclicker.git)
+- [Php basics](https://github.com/vbrh-immalle/php-basics)
+- [Php MySQL](https://github.com/vbrh-immalle/php-mysql)
+- [Php forms](https://github.com/vbrh-immalle/php-forms)
+
+# Web-applicaties met Python
+
+- [Python versies](Python/PythonVersies.md)
+- [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
+- [Python console](Python/PythonConsole.md)
+- [Flask](Python/Flask.md)
+- [MySQL](Python/MySQL.md)
 
 # SQL
 
-- [SQL](SQL/sql.md)
-- [SQL files](SQL/dbfiles/)
+- :earth_africa: https://sqlbolt.com/
+- :earth_africa: https://www.sololearn.com/Course/SQL/
+- :earth_africa: [Powerpoint (OneDrive)](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/WopiFrame.aspx?docid=08a4815504fea42cab8bbc5a179409109&authkey=AZ1tj1ub6zErS16YElYWhxg&action=view)
+- [SQL overzicht](SQL/sql.md)
+- [SQL voorbeelden](SQL/voorbeelden.md)
+- [SQL files (`.xlsx` -> `csv`)](SQL/dbfiles/)
+- [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
+- [Voorbeeld 1-op-veel](SQL/voorbeeld-1-op-veel.md)
+- [Voorbeeld veel-op-veel](SQL/voorbeeld-veel-op-veel.md)
+
+# Javascript
+
+- higher order functions
+
+# Leerstof PW juni
+
+- [Leerstof PW juni](leerstof_juni.md)
