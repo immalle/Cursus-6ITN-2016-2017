@@ -167,6 +167,8 @@ Vertrek van `blank.html`:
 - [Parameters meegeven](Powershell/Parameters.md)
 - [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
 - [Variabelen](Powershell/Variabelen.md)
+- [Oef](Powershell/Oef)
+- [Extra](Powershell/Extra)
 
 # HTTP
 
