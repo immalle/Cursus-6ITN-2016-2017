@@ -176,6 +176,7 @@ Vertrek van `blank.html`:
 - [Curl : CLI http client](Http/Curl.md)
 - [Cookies analyseren met Fiddler en Wireshark](Http/CookiesFiddlerWireshark)
 - [Http en Php analyseren met wireshark](Http/WiresharkHttpPhpAnalyse)
+- [Tracking voor marketing-doeleinden](Http/TrackingMarketing.md)
 
 # Web-applicaties met Php
 
@@ -212,3 +213,4 @@ Vertrek van `blank.html`:
 # Leerstof PW juni
 
 - [Leerstof PW juni](leerstof_juni.md)
+
