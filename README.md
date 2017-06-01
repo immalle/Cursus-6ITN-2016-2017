@@ -147,7 +147,7 @@ Vertrek van `blank.html`:
 - :rocket: [Oef. form uitlezen](Javascript/oef_form.md)
 - :rocket: [Oef. JSON](Javascript/oef_json.md) 
 
-- [ClassList](Javascript/classList.md)
+- [ClassList](Javascript/classlist.md)
 - [Scrollspy](Javascript/scrollspy.md)
 
 # VirtualBox
