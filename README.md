@@ -17,6 +17,9 @@
 # Excel
 
 - [Cell Formatting / Celweergave](Excel/CellFormatting.md)
+- [Csv importeren en parsen](Excel/Csv.md)
+- [Tabellen en draaitabellen (pivot tables)](Excel/Tables.md)
+- [3D kaarten](Excel/3D_Charts.md)
 
 # Word
 
