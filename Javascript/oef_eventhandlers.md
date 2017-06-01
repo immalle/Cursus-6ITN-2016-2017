@@ -61,3 +61,7 @@ We kunnen deze code trouwens met `String.fromCharCode` omzetten naar een string 
 
 
 Iets gelijkaardig kunnen we doen voor het response van een `XMLHttpRequest`!
+
+> Net zoals DateTime's zijn key-presses in Javascript niet super gebruikersvriendelijk.
+> Gebruik daarom externe libraries zoals Mousetrap (https://craig.is/killing/mice) of
+> https://momentjs.com/

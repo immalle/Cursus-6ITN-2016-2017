@@ -1,4 +1,4 @@
-
+# XmlHttpRequest
 
 Maak een nieuw `XMLHttpRequest`
 
@@ -40,4 +40,14 @@ Probeer een event handler zoals:
 	});
 
 
+# Oef
+
+Maak een html-bestand met daarin een knop en een `<ul>`. Een druk op de knop zal
+een lijst van je repositories van GitHub opvragen en links ernaar toe toevoegen
+aan de `<ul>`.
+
+Als op de knop gedrukt wordt, zal dus een XMLHttpRequest verstuurd moeten worden.
+
+Maak best een method om een link toe te voegen aan de `<ul>`. Uiteraard geef je de
+`<ul>` best een `id`.
 
