@@ -5,7 +5,7 @@ Start lokale dev-server met `php -S localhost:8080`.
 Gebruik de files `index.php`:
 
 ```
-</php
+<?php
 
 echo "GET";
 var_dump($_GET);
