@@ -83,14 +83,14 @@ wordt alleen het resultaat terug gegeven:
 Dit is handig om later in scripts te gebruiken, b.v. in combinatie met een If-
 statement.
 
-Op deze manier kunnen we b.v. ook van vele commando’s (niet van allemaal)
-zien welke properties default worden getoond:
+> EXTRA: Op deze manier kunnen we b.v. ook van vele commando’s (niet van allemaal)
+> zien welke properties default worden getoond:
 
 ```
 (dir).PSStandardMembers.DefaultDisplayPropertySet
 ```
 
-Meer info: http://poshoholic.com/2008/07/05/essential-powershell-define-default-properties-for-custom-objects/)
+> Meer info: http://poshoholic.com/2008/07/05/essential-powershell-define-default-properties-for-custom-objects/)
 
 ## Where-Object
 
