@@ -80,7 +80,7 @@ Zorg dat je de `$_GET`, `$_POST` en `$_SESSION` superglobals goed kan gebruiken.
 
 - basissyntax, event listeners koppelen, ... (leerstof vorig jaar)
 - arrow-functies en higher order functions (forEach, map, filter, reduce, some, every)
-- XmlHttpRequest (nog te zien)
+- XmlHttpRequest
 - `localStorage` en `sessionStorage`
 - cookies (nog te zien of herhalen)
-- classList (nog te zien of herhalen)
+- classList 
