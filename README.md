@@ -174,6 +174,7 @@ Vertrek van `blank.html`:
 - :checkered_flag: [Parameters meegeven](Powershell/Parameters.md)
 - :checkered_flag: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
 - :checkered_flag: [Variabelen](Powershell/Variabelen.md)
+- [Arrays](Powershell/Arrays.md)
 - :checkered_flag: [Oef](Powershell/Oef)
 - :checkered_flag: [Extra](Powershell/Extra)
 
