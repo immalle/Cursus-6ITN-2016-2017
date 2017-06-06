@@ -174,6 +174,7 @@ Vertrek van `blank.html`:
 - :checkered_flag: [Parameters meegeven](Powershell/Parameters.md)
 - :checkered_flag: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
 - :checkered_flag: [Variabelen](Powershell/Variabelen.md)
+- [Arrays](Powershell/Arrays.md)
 - :checkered_flag: [Oef](Powershell/Oef)
 - :checkered_flag: [Extra](Powershell/Extra)
 
@@ -212,6 +213,7 @@ Vertrek van `blank.html`:
 - :checkered_flag: [Voorbeeld 1-op-1](SQL/voorbeeld-1-op-1.md)
 - :checkered_flag: [Voorbeeld 1-op-veel](SQL/voorbeeld-1-op-veel.md)
 - :checkered_flag: [Voorbeeld veel-op-veel](SQL/voorbeeld-veel-op-veel.md)
+- :checkered_flag: [SQL Cascading](SQL/SQL-cascading.md)
 
 # Leerstof PW juni
 

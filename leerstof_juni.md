@@ -24,7 +24,7 @@ Je kan je verwachten aan:
 - queries met joins (verschil `LEFT` en `INNER`, ...)
 - implementeren in MySQL van tabellen (1-op-1, 1-op-veel, veel-op-veel)
 - user-rechten beheren van MySQL
-- indexes en referentiële integriteit (nog te zien)
+- indexes en referentiële integriteit
 
 Je moet ook code die gebruik maakt van een SQL-database kunnen aanvullen.
 De voorbeelden die we in de klas besproken hebben zijn Php PDO en Python mysql-connector.

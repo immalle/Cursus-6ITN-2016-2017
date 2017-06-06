@@ -83,14 +83,14 @@ wordt alleen het resultaat terug gegeven:
 Dit is handig om later in scripts te gebruiken, b.v. in combinatie met een If-
 statement.
 
-Op deze manier kunnen we b.v. ook van vele commando’s (niet van allemaal)
-zien welke properties default worden getoond:
+> EXTRA: Op deze manier kunnen we b.v. ook van vele commando’s (niet van allemaal)
+> zien welke properties default worden getoond:
 
 ```
 (dir).PSStandardMembers.DefaultDisplayPropertySet
 ```
 
-Meer info: http://poshoholic.com/2008/07/05/essential-powershell-define-default-properties-for-custom-objects/)
+> Meer info: http://poshoholic.com/2008/07/05/essential-powershell-define-default-properties-for-custom-objects/)
 
 ## Where-Object
 
@@ -98,27 +98,26 @@ Met `Where-Object` (alias `where` of `?`) kan je resultaten filteren.
 
 Enkele afkortingen:
 
-- gt
+- `gt`
   - greather then
   - groter dan
-- lt
+  - b.v. `dir c:\ | ? LastWriteTime -gt 2008-01-01`
+- `lt`
   - less than
   - kleiner dan
-- eq
+- `eq`
   - equal
   - gelijk
-- match
-- cmatch
+- `like`
+  - zoeken met wildcard, b.v. `dir | where Name -Like c*.md` (alle markdown-files die met een d beginnen)
+- `notlike`
+- `match`
+  - `get-verb | ? group -match common`
+- `cmatch`
   - case sensitive match
   - hoofdlettergevoelig
 - ...
 
-Voorbeelden:
-
-```
-dir c:\ | ? LastWriteTime -gt 2008-01-01
-get-verb | ? group -match 'common' | format-wide -AutoSize
-```
 
 ## Verb-Noun syntax
 
@@ -128,7 +127,7 @@ Het is je waarschijnlijk al opgevallen dat commando’s de structuur
 Deze verbs zijn ook nog eens opgedeeld in Groups.
 
 - `Get-Verb`
-- `get-verb | ? group -match 'common' | format-wide -AutoSize`
+- `get-verb | where group -match 'common' | format-wide -AutoSize`
 
 
 ## Voorbeelden
@@ -136,17 +135,17 @@ Deze verbs zijn ook nog eens opgedeeld in Groups.
 Er zijn nog vele andere commando’s die zeer geschikt zijn om achter `|` te
 zetten, zoals `group`, `measure`, ...
 
-- get-process | gm
-- get-process | fl *
-- get-process | gm -membertype Method
-- dir c:\ | sort-object LastWriteTime -Descending
-- dir c:\ | sort-object LastWriteTime -Descending | ogv
-- dir c:\ | measure-object
-- dir c:\ | measure-object | gm
-- (dir c:\ | measure).count
-- Show-Command dir
-- get-process | group name
-- get-command -commandtype cmdlet | group verb | sort count -Descending
-- get-command -commandtype cmdlet | group verb | sort count -Descending | select -First 10
+- `get-process | gm`
+- `get-process | fl *`
+- `get-process | gm -membertype Method`
+- `dir c:\ | sort-object LastWriteTime -Descending`
+- `dir c:\ | sort-object LastWriteTime -Descending | ogv`
+- `dir c:\ | measure-object`
+- `dir c:\ | measure-object | gm`
+- `(dir c:\ | measure).count`
+- `Show-Command dir`
+- `get-process | group name`
+- `get-command -commandtype cmdlet | group verb | sort count -Descending`
+- `get-command -commandtype cmdlet | group verb | sort count -Descending | select -First 10`
 
 
