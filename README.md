@@ -196,9 +196,9 @@ Vertrek van `blank.html`:
 # Web-applicaties met Python
 
 - [Python versies](Python/PythonVersies.md)
-- :checkered_flag: [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
+- [Een simpele HTTP server (een directory hosten)](Python/HttpServer.md)
 - [Python console](Python/PythonConsole.md)
-- :checkered_flag: [Flask](Python/Flask.md)
+- [Flask](Python/Flask.md)
 - [MySQL](Python/MySQL.md)
 
 # SQL

@@ -69,13 +69,6 @@ Zorg dat je de `$_GET`, `$_POST` en `$_SESSION` superglobals goed kan gebruiken.
 - https://github.com/immalle/Cursus-6ITN-2016-2017#web-applicaties-met-php
 
 
-# Python
-
-- python scripts kunnen uitvoeren
-- python pakketten installeren met `pip`
-- python-functies (met parameters) kunnen herkennen en aanroepen
-
-
 # Javascript
 
 - basissyntax, event listeners koppelen, ... (leerstof vorig jaar)
