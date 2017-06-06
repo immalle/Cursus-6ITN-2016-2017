@@ -203,7 +203,7 @@ In het tab-blad **Foreign Keys** kunnen we:
 - de *referenced table* kiezen (`books`)
 - de kolom `book_id` aan te duiden als **reference column** voor `books.id`
 
-[MySQLWorkbench_AlterTable_BooksBookmarks](MySQLWorkbench_AlterTable_BooksBookmarks.png)
+![MySQLWorkbench_AlterTable_BooksBookmarks](MySQLWorkbench_AlterTable_BooksBookmarks.png)
 
 Deze SQL-code zal uitgevoerd worden na **Apply**:
 
